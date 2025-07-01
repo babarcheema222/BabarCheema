@@ -4,25 +4,36 @@ import SmartLink from './common/SmartLink';
 
 const projects = [
   {
+    title: 'Jetour Gujrat Website',
+    description: 'A modern, fully responsive automotive website built with React and TypeScript, styled using Vite for blazing-fast performance. The site showcases the latest Jetour car models, features, and services, and is designed to look stunning on all devices. Hosted live for seamless user experience and easy accessibility.',
+    link: 'https://jetourgujrat.com/'
+  },
+  {
     title: 'Flutter Daily Task App',
-    description: 'A cross-platform daily task All in one App built with Flutter.',
+    description: 'A Flutter-based app featuring a splash screen, login/signup/forgot password flow (demo: babar@gmail.com / 123456), and a collection of daily-use utility apps—all in one place. Each tool is functional and designed with a clean, professional UI for a seamless user experience.',
     link: 'https://github.com/babarcheema222/Daily-Use-Apps'
   },
   {
     title: 'Flutter Health App',
-    description: 'Health App built with Dart.Fully responsive and professional.',
+    description: 'A modern Flutter Fitness App designed to help users stay healthy and motivated. Includes a splash screen, login/signup system, clean UI, and various screens for workouts, diet, and tracking. Built with responsiveness and smooth navigation to offer a seamless fitness-focused user experience across all devices.',
     link: 'https://github.com/babarcheema222/Fitrness_App'
   },
   {
     title: 'My Portfolio',
-    description: 'A modern fully responsive and professional website for my portfolio.',
+    description: 'This is my personal portfolio built using React And typrscript. It showcases my skills, projects, and experience as a Flutter and web developer. Designed with a modern and responsive layout, it provides a professional platform to highlight my work for potential employers, collaborators, or clients in the tech industry.',
     link: 'https://github.com/babarcheema222/My-Portfolio'
   },
   {
     title: 'Crud Notes App',
-    description: 'Crud Notes App with Gmail Authentication and Database with firbase.',
+    description: 'A simple CRUD Notes App built with Flutter and Firebase. First signup and the login. It allows users to create, read, update, and delete notes seamlessly. Includes email/password authentication, real-time Firestore database integration, and a clean responsive UI. Perfect for beginners learning Flutter + Firebase with a practical, real-world example.',
     link: 'https://github.com/babarcheema222/Crud-Notes-App'
   },
+  {
+    title: 'WeatherApp',
+    description: 'A Flutter weather app with real-time forecast, dark/light theme toggle, Lottie animated starry background, and city-based search. Uses OpenWeatherMap API with clean UI and Provider for theme management..',
+    link: 'https://github.com/babarcheema222/weatherapp_api_integrated'
+  },
+ 
 ];
 
 const Projects = () => {
